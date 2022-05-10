@@ -1,17 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Hello</h1>
+  <v-col cols="12" sm="6" md="3">
+    <v-text-field style="min-width = 200px;" label="Filled" placeholder="Placeholder" filled></v-text-field>
+  </v-col>
+  <MarvelCharacter />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MarvelCharacter from "./components/MarvelCharacter.vue";
 
 export default {
-  name: 'App',
+  name: "App",
+  data() {
+    return {
+      inputText: null,
+    };
+  },
   components: {
-    HelloWorld
-  }
-}
+    MarvelCharacter,
+  },
+};
 </script>
 
 <style>
