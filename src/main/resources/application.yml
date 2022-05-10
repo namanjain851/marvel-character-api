@@ -1,7 +1,0 @@
-user:
-  publicKey: 73ed8eeaee4463b6ac95debffbf2bb70
-  privateKey: af8ca14c85601d912d6f4695cbd55e0feea1996e
-
-marvel:
-  domain:  https://gateway.marvel.com:443
-  charactersPath: /v1/public/characters
